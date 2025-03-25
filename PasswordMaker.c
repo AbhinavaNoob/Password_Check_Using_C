@@ -99,7 +99,7 @@ int main()
         {
             if (strcmp(word, password) == 0) 
             {  
-                printword(); // You can add anything in the void printword() place, ses at the beginning of the code.
+                printword(); // You can add anything in the void printword() place, it is at the beginning of the code.
                 return 0;
             } else 
             {
