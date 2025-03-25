@@ -7,7 +7,7 @@
 
 void printword()
 {
-    printf("Ayy you are in now!! Check the source code in AbhinavaNoob/PasswordChecker\n");
+    printf("Entered!\n");
 }
 
 int main()
@@ -26,7 +26,7 @@ int main()
 
         if(text == NULL)
         {
-            printf("Boi, you are cooked");
+            printf("You are cooked");
             return 1;
         }
         else
@@ -40,7 +40,7 @@ int main()
 
         if (fgets(line, sizeof(line), text) == NULL) 
         {
-            printf("Boi, you are cooked.\n");
+            printf("You are cooked.\n");
             fclose(text);
             return 1;
         }    
